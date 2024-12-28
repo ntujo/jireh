@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jireh Media House</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background:  #ADFF2F;
+            color: navy;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+        }
+        nav a {
+            color: #ADFF2F;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background: navy;
+        }
+        section {
+            padding: 20px;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            color: navy;
+        } 
+    .services {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        margin: 20px 0;
+    }
+    .service {
+        background: #f4f4f4;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 0 2px 5px #ADFF2F(0, 0, 0, 0.1);
+        text-decoration: none;
+        color: black;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .service:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+        footer {
+            background: #333;
+            color: #ADFF2F;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: auto;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background: #333;
+            color:#ADFF2F;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background: navy;
+        }
+        <style>
+    #about h3 {
+        color: #333;
+        margin-top: 20px;
+    }
+    #about ul {
+        list-style-type: disc;
+        margin-left: 20px;
+    }
+    #about ul li {
+        margin-bottom: 10px;
+    }
+</style>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Optional Bootstrap JavaScript and Popper.js (for dropdowns, modals, etc.) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+<body>
+
+<header>
+    <h1>Jireh Media House</h1>
+    <p>Empowering Stories, Inspiring Change</p>
+    <img src="">
+</header>
+
+<nav>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact Us</a>
+</nav>
+
+<section class="hero">
+    <h2>Welcome to Jireh Media House</h2>
+    <p>Your partner in creating impactful media and IT solutions.</p>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>At Jireh Media House, we specialize in delivering creative and technical services that empower individuals and businesses to shine. From stunning media productions to cutting-edge IT solutions, we are your trusted partner.</p>
+    
+    <h3>Our Vision</h3>
+    <p>To become a leading media house known for creativity, innovation, and transformative storytelling that inspires change and empowers communities.</p>
+    
+    <h3>Our Mission</h3>
+    <p>To deliver high-quality media and IT solutions that help our clients communicate their stories effectively and achieve their goals.</p>
+    
+    <h3>Our Core Values</h3>
+    <ul>
+        <li><strong>Creativity:</strong> We believe in thinking outside the box to create unique and impactful solutions.</li>
+        <li><strong>Integrity:</strong> Honesty and transparency guide all our interactions and decisions.</li>
+        <li><strong>Excellence:</strong> We are committed to delivering the highest quality services in everything we do.</li>
+        <li><strong>Collaboration:</strong> We value teamwork and partnerships to achieve mutual success.</li>
+        <li><strong>Innovation:</strong> We embrace change and continuously seek new ways to improve and grow.</li>
+    </ul>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+        <a href="design.html" class="service">
+            <h3>Design</h3>
+            <p>Creative designs tailored to your brand's needs.</p>
+        </a>
+        <a href="print.html" class="service">
+            <h3>Print</h3>
+            <p>High-quality printing services for all your needs.</p>
+        </a>
+        <a href="brand.html" class="service">
+            <h3>Brand</h3>
+            <p>Building your brand to stand out in the market.</p>
+        </a>
+        <a href="stationary.html" class="service">
+            <h3>Stationary</h3>
+            <p>Professional stationary solutions for businesses.</p>
+        </a>
+        <a href="photography.html" class="service">
+            <h3>Photography</h3>
+            <p>Capturing moments with precision and creativity.</p>
+        </a>
+        <a href="cinematography.html" class="service">
+            <h3>Cinematography</h3>
+            <p>Producing cinematic experiences that inspire.</p>
+        </a>
+        <a href="multimedia.html" class="service">
+            <h3>Multimedia Experts</h3>
+            <p>Expertise in multimedia content creation and strategy.</p>
+        </a>
+        <a href="cybersecurity.html" class="service">
+            <h3>Cybersecurity Professionals</h3>
+            <p>Protecting your digital assets with advanced security.</p>
+        </a>
+        <a href="networking.html" class="service">
+            <h3>Networking</h3>
+            <p>Reliable networking solutions to keep you connected.</p>
+        </a>
+    </div>
+</section>
+
+<section id="portfolio">
+    <h2>Our Portfolio</h2>
+    <p>Check out our past projects showcasing our expertise and creativity.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:ntujojoelson@gmail.com">ntujojoelson@gmail.com"</a></p>
+    <p>Phone: +256773549857 | +256708287451</p>
+    <p>Address: Kampala, Uganda, Kakiri, Wakiso District</p>
+    <div class="contact-form">
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>© 2024 Ntujo Joelson Nickytodd. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
