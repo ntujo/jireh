@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #ADFF2F; /* Lemon Green */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+#services {
+    padding: 20px;
+}
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.service {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    transition: 0.3s;
+}
+.service:hover {
+    background: navy (226, 18, 18);
+}
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.portfolio img, .portfolio video {
+    width: 100%;
+    border-radius: 8px;
+}
+.back-to-services {
+    text-align: center;
+    margin: 20px 0;
+}
+.back-to-services a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #333;
+    color: rgb(253, 249, 249);
+    text-decoration: none;
+    border-radius: 5px;
+}
+.back-to-services a:hover {
+    background: #555;
+}
